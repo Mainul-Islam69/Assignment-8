@@ -1,0 +1,58 @@
+.selected-product {
+    margin: 10px 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1.5px solid #05a4c0;
+}
+
+.image-sec-for-sizing {
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.selected-product img {
+    width: 100%;
+}
+
+#delete-button {
+    transition: .2s;
+    cursor: pointer;
+}
+
+#delete-button:hover {
+    color: #e90000;
+}
+
+
+
+/* Make It Resp[onsive */
+
+@media screen and (max-width: 1258px) {
+    .selected-product {
+        padding: 5px ;
+    }
+    .selected-product h4{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 850px) {
+    .selected-product h4{
+        font-size: 17px;
+    }
+    .image-sec-for-sizing {
+        width: 45px;
+        height: 45px;
+    }
+}
+@media screen and (max-width: 465px) {
+    .selected-product h4{
+        font-size: 14px;
+    }
+
+}
