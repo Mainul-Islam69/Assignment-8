@@ -28,7 +28,11 @@ const Home = () => {
         setCart([])
     }
     const choose1ForMe = () => {
-        setCart([cart[Math.floor(Math.random() * 4)]])
+        if(cart.length > 2){
+            setCart([cart[Math.floor(Math.random() * 4)]])
+        }else{
+            alert('Add Minimum 2 Product')
+        }
     }
     return (
         <div className='home-page-main'>
