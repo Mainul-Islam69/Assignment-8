@@ -50,9 +50,3 @@
         height: 45px;
     }
 }
-@media screen and (max-width: 465px) {
-    .selected-product h4{
-        font-size: 14px;
-    }
-
-}
